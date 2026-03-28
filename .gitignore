@@ -1,3 +1,30 @@
 # Godot 4+ specific ignores
 .godot/
+*.log
+*.exe
+*.exe.console
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+build/
+dist/
+*.pck
+*.zip
+
+# Godot export templates
+export_templates/
+
+# Local configuration
+local_settings.json
+
+# Backup files
+*.backup
+*.bak
 /android/
